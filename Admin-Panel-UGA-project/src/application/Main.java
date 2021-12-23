@@ -16,7 +16,7 @@ public class Main extends Application {
 			Scene scene = new Scene(root,400,400);
 			scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
 			
-			
+		
 			Image icon = new Image("UGA LOGO.png");
 			primaryStage.getIcons().add(icon);
 			primaryStage.setTitle("UGA");
@@ -27,7 +27,6 @@ public class Main extends Application {
 			primaryStage.setResizable(false);
 			primaryStage.setScene(scene);
 			primaryStage.show();
-			
 		} catch(Exception e) {
 			e.printStackTrace();
 		}
